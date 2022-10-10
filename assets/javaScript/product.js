@@ -14,9 +14,9 @@ $(() => {
       $("#product-detail").append(`<div id = product-description>
         <h1>${productList.name}</h1>
         <h4>${productList.brand}</h4>
-        <h3>Price: Rs <span>${productList.price}</span></h4>
+        <h3>Price: Rs <span>${productList.price}</span></h3>
         <div id = description>
-        <h3>Description</h3>
+        <h2>Description</h2>
         <p>${productList.description}</p>
         </div>
         <div id = product-preview>
